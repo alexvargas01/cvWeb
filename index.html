@@ -2,20 +2,34 @@
 <html>
 
 <head>
-    <title>CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Alex Vargas | CV</title>
 </head>
 
-<body>
-    <header>
-        <h1>Alex Jesús Vargas Castro</h1>
-        <p>
-            Computer Science student @ ITESM
-        </p>
+<body class="bodyColor">
+    <header class="header">
+        <div class="heads">
+            <div><img src="img_avatar.jpg" style="width:300px" alt="Avatar"></div>
+
+            <div>
+                <span>
+                    <h1>Alex Jesús Vargas Castro</h1>
+                </span>
+                <div>
+                    <p>
+                        Computer Science student @ ITESM
+                    </p>
+                </div>
+                <p>a00824525@itesm.mx</p>
+            </div>
+        </div>
+
     </header>
     <main>
-        <div>
-            <div>
-                <h2>Experience</h2>
+
+        <h2>Experience</h2>
+        <div class="exp">
+            <div class="topCard">
                 <strong>“mexicovid19” &emsp; June 2021 – current</strong>
                 <br />
                 <i>Working as an On Campus Intern at ITESM</i>
@@ -26,7 +40,7 @@
                     <li>Development is done using <strong>React</strong> and <strong>MaterialUI</strong></li>
                 </ul>
             </div>
-            <div>
+            <div class="topCard">
                 <strong>“TransformaWeb”&emsp; Feb 2021 – June 2021</strong>
                 <br />
                 <ul>
@@ -39,77 +53,109 @@
                     </li>
                 </ul>
             </div>
-            </section>
-            <div>
-                <div>
-                    <h2>Projects</h2>
-                    <strong>“Hajime” (Mobile App development) &emsp; Feb 2021 – June 2021</strong>
-                    <br />
-                    <i>Language-learning app </i>
-                    <ul>
-                        <li>Co-led a team that launched a free IOS app where users can learn and practice the Japanese
-                            writing system </li>
-                        <li>Responsible for the home page, connecting our app to <strong>kanjiapi</strong> for data
-                            usage
-                            and the achievement system</li>
-                        <li>Built on <strong>Swift</strong> and designed the UI using <strong>adobeXD</strong> </li>
-                    </ul>
-                </div>
-                <div>
-                    <strong>“Orbis” (Web App development)&emsp; Aug 2020 – Jan 2021 </strong>
-                    <br />
-                    <i>Information and map guidance</i>
-                    <ul>
-                        <li>
-                            Implemented front-end of website in which users can login and consult information of ITESM
-                            campus Monterrey
-                        </li>
-                        <li>Designed the UI using <strong>adobeXD</strong>
-                        </li>
-                        <li>Implemented part of the UI, map layout and login page using <strong>React</strong> and
-                            <strong>MaterialUI</strong>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <strong>“Rune” (Mobile App development)&emsp; June 2020 – Aug 2020 </strong>
-                    <br />
-                    <i>Mobile password managing app</i>
-                    <ul>
-                        <li>
-                            • Created a mobile app in which users can log in and store their online credentials,
-                            additionally, users can generate random passwords.
-                        </li>
-                        <li>• Designed the user interface layout using <strong>Justinmind</strong>
-                        </li>
-                        <li>• Implemented the UI and part of the route navigation using <strong>Dart</strong> and
-                            <strong>Flutter</strong>
-                        </li>
-                    </ul>
-                </div>
-                </section>
-                <div>
-                    <h2>Programming Languages</h2>
-                    <ul>
-                        <li>C++</li>
-                        <li>C</li>
-                        <li>SQL</li>
-                        <li>Swift</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                    </section>
-                    <div>
-                        <h2>Technologies</h2>
+        </div>
+
+
+        <h2>Projects</h2>
+        <div class="pry">
+            <div class="proyCards">
+                <div class="colWidth">
+                    <div class="cards">
+                        <strong>“Hajime” (Mobile App development) &emsp; Feb 2021 – June 2021</strong>
+                        <br />
+                        <i>Language-learning app </i>
                         <ul>
-                            <li>Git</li>
-                            <li>React</li>
-                            <li>mongoDB</li>
-                            <li>Bootstrap</li>
-                            <li>Adobe XD</li>
+                            <li>Co-led a team that launched a free IOS app where users can learn and practice the
+                                Japanese
+                                writing system </li>
+                            <li>Responsible for the home page, connecting our app to <strong>kanjiapi</strong> for data
+                                usage
+                                and the achievement system</li>
+                            <li>Built on <strong>Swift</strong> and designed the UI using <strong>adobeXD</strong> </li>
                         </ul>
-                        </section>
+                    </div>
+                    <div class="cards">
+                        <strong>“Orbis” (Web App development)&emsp; Aug 2020 – Jan 2021 </strong>
+                        <br />
+                        <i>Information and map guidance</i>
+                        <ul>
+                            <li>
+                                Implemented front-end of website in which users can login and consult information of
+                                ITESM
+                                campus Monterrey
+                            </li>
+                            <li>Designed the UI using <strong>adobeXD</strong>
+                            </li>
+                            <li>Implemented part of the UI, map layout and login page using <strong>React</strong> and
+                                <strong>MaterialUI</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="colWidth">
+                    <div class="cards">
+                        <strong>“Rune” (Mobile App development)&emsp; June 2020 – Aug 2020 </strong>
+                        <br />
+                        <i>Mobile password managing app</i>
+                        <ul>
+                            <li>
+                                Created a mobile app in which users can log in and store their online credentials,
+                                additionally, users can generate random passwords.
+                            </li>
+                            <li>Designed the user interface layout using <strong>Justinmind</strong>
+                            </li>
+                            <li>Implemented the UI and part of the route navigation using <strong>Dart</strong> and
+                                <strong>Flutter</strong>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="cards">
+                        <strong>“Crimson Vault” (Video game development)&emsp; Feb 2020 – June 2020 </strong>
+                        <br />
+                        <i>Third person racing game</i>
+                        <ul>
+                            <li>
+                                Programmer and lead writer of Crimson Vault.
+                            </li>
+                            <li>Implemented all of the car movement mechanics, such as acceleration, wheel rotation,
+                                breaking, colliders and general physics using <strong>C#</strong> in
+                                <strong>Unity</strong>
+                            </li>
+                            <li>Wrote the main story which included the main characters, locations, dialogue and map
+                                design.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2>Programming Languages & Technologies</h2>
+        <div class="prgo">
+            <div class="bottomCard">
+                <ul>
+                    <li>C++</li>
+                    <li>C</li>
+                    <li>SQL</li>
+                    <li>Swift</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+
+            <div class="bottomCard">
+                <ul>
+                    <li>Git</li>
+                    <li>React</li>
+                    <li>mongoDB</li>
+                    <li>Bootstrap</li>
+                    <li>Adobe XD</li>
+                </ul>
+            </div>
+        </div>
+
     </main>
     <footer>
         <span>©</span> 2021 Alex Vargas

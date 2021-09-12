@@ -1,0 +1,81 @@
+.header {
+    padding: 25px;
+    text-align: left;
+    background: #1F1F24;
+    color: white;
+    font-size: 30px;
+    border-radius: 8px;
+}
+
+.bodyColor {
+    background-color: #100E16;
+    color: white;
+}
+
+.heads {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.exp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pry {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prgo {
+    display: flex;
+    justify-content: center;
+}
+
+.topCard {
+    padding: 15px;
+    background: #1F1F24;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 50%;
+}
+
+.cards {
+    padding: 15px;
+    background: #1F1F24;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.proyCards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colWidth {
+    width: 50%;
+}
+
+.bottomCard {
+    padding: 15px;
+    background: #1F1F24;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 15%;
+}
+
+img {
+    border-radius: 60%;
+  }
